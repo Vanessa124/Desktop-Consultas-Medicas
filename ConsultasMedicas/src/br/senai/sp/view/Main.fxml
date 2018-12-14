@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1028.0" style="-fx-background-color: #8ea8ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="9.0" layoutY="14.0" prefHeight="109.0" prefWidth="1011.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="49.0" fitWidth="56.0" layoutX="238.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/agenda.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="312.0" layoutY="29.0" prefHeight="64.0" prefWidth="471.0" text="Agenda de Consultas Médicas" textFill="#333333">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="btnGerenciarMedicos" layoutX="220.0" layoutY="248.0" mnemonicParsing="false" onAction="#abrirTelaMedico" prefHeight="203.0" prefWidth="260.0" style="-fx-background-color: #ffffff; -fx-border-radius: 0px; -fx-background-radius: 0px;;">
+         <graphic>
+            <ImageView fitHeight="130.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/medicos.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="220.0" layoutY="450.0" prefHeight="57.0" prefWidth="260.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/gerenciar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="57.0" layoutY="13.0" prefHeight="32.0" prefWidth="189.0" text="Gerenciar médicos">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="549.0" layoutY="451.0" prefHeight="57.0" prefWidth="260.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/gerenciar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="57.0" layoutY="13.0" prefHeight="32.0" prefWidth="189.0" text="Gerenciar especialidades">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="btnGerenciarEspecialidades" layoutX="549.0" layoutY="248.0" mnemonicParsing="false" onAction="#gerenciarEspecialidades" prefHeight="203.0" prefWidth="260.0" style="-fx-background-color: #ffffff; -fx-border-radius: 0px; -fx-background-radius: 0px;;">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/especialidades.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

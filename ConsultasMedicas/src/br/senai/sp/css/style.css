@@ -1,0 +1,9 @@
+.checkbox{
+	-fx-font-size: 18px;
+}
+
+.checkbox .box{
+	-fx-border: 0px;
+	-fx-background-color: white;
+}
+
